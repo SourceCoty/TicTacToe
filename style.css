@@ -1,0 +1,125 @@
+body, html {
+    background-color: #f1f1f1;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1F3E59;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: .5fr 3fr .5fr 1fr;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boardcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right:-13px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.segment {
+    width: 165px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+.segmentfreeze {
+    width: 165px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    pointer-events: none;
+}
+
+#three, #four, #five {
+    border-top: #1F3E59 solid 13px;
+    border-bottom: #1F3E59 solid 13px;
+}
+
+#one, #four, #seven {
+    border-right: #1F3E59 solid 13px;
+    border-left: #1F3E59 solid 13px;
+    margin-left: -13px;
+}
+
+.external {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.noticecontainer {
+    border: #1F3E59 7px solid;
+    color: #1F3E59;
+    border-radius: 15px;
+    padding: 20px 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.printer {
+    font-size: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;;
+}
+
+button {
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f1f1f1;
+    background: #1F3E59;
+    border-radius: 15px;
+    border: #1F3E59 solid;
+}
+
+button:hover {
+    color: #ffffff;
+    background: #2e4b64;
+    border-radius: 15px;
+    border: #2e4b64 solid;
+}
+
+.segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
